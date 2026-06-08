@@ -32,7 +32,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
-var jwtMaxAge = 10 * time.Minute
+var jwtMaxAge = 1 * time.Hour
 
 type Handler struct {
 	userService        user.Service
